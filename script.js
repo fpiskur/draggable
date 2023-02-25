@@ -34,7 +34,7 @@ function dragEnter(e) {
 
 function dragOver(e) {
   e.preventDefault();
-  e.currentTarget.classList.add('drag-over');
+  // e.currentTarget.classList.add('drag-over');
 }
 
 function dragLeave(e) {
